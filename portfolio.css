@@ -1,0 +1,59 @@
+.my-portfolio{
+background-color: rgb(74, 206, 206);
+font-size: 50px;
+color: white;
+border-radius: 25px;
+padding-left: 20px;
+}
+
+.about-me{
+margin-top: 20px;
+border-style: solid;
+border-color: black;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-left: 20px;
+}
+
+.my-background{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: rgb(237, 207, 8);
+    width: 100px;
+    height: 90px;
+    border-top-right-radius: 30px;
+}
+
+.my-work-experience{
+    margin-top: 20px;
+    border-style: double;
+    border-color: green;
+    width: 300px;
+    height: 100px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.education{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: red;
+    width: 300px;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.hobby{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: yellow;
+
+}
