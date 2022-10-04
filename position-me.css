@@ -1,0 +1,48 @@
+/* .position-me-container{
+    border: 1px solid black;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.center-me{
+    border: 3px solid pink;
+    border-radius: 15px;
+    padding: 5px 30px;
+
+} */
+
+.position-me-container{
+    border: 1px solid black;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.Eye1{
+    border: 4px solid rgb(41, 25, 25);
+    border-radius: 15px;
+    padding: 5px 30px;
+
+}
+
+.Eye2{
+    border: 4px solid rgb(183, 39, 39);
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+
+.Mouth{
+    border: 4px solid red;
+    border-radius: 50%;
+    align-self: flex-end;
+    padding: 10px 40px;
+    border-width: 13px;
+    
+}

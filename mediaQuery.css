@@ -1,0 +1,21 @@
+body {
+    color: red;
+    border: 2px solid black;
+    width: 400px;
+    padding-left: 25px;
+}
+
+.title {
+    font-size: 3rem;
+    
+}
+
+.sub-title {
+    font-size:larger;
+}
+
+@media (max-width:500px){
+    body{
+        color:blue
+    }
+}
