@@ -1,21 +1,42 @@
-body {
+.box {
     color: red;
     border: 2px solid black;
     width: 400px;
     padding-left: 25px;
 }
 
-.title {
+/* .title {
     font-size: 3rem;
     
 }
 
 .sub-title {
     font-size:larger;
+} */
+
+@media screen and (max-width:900px){
+    .box{
+        color:blue
+    }
+    .sub-title{
+        display :none
+    }
 }
 
-@media (max-width:500px){
-    body{
-        color:blue
+@media screen and (min-width: 320px)and ( max-width: 480px ){
+    .box{
+        color:green;
+    }
+    
+}
+@media screen and (min-width:481px) and (max-width: 767px){
+    .box{
+        color: orange;
+    }
+}
+
+@media screen and (min-width:1281px){
+    .box{
+        color: purple;
     }
 }

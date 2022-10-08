@@ -1,0 +1,26 @@
+.chess-pieces{
+
+border: 1px solid black;
+width: 800px;
+height: 800px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.piece {
+    min-width: 12.5%;
+    height: 12.5%;
+    display: block;
+    /* border: 1px solid black; */
+   text-align: center;
+   
+}
+.chess-pieces .piece:nth-child(n+2) :nth-child(n+4) :nth-child(n+7)
+
+{
+    background-color: gray;
+}
+
+
+
